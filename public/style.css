@@ -1,0 +1,157 @@
+/* from view component */
+
+#button {
+	margin-left: 20px;
+}
+
+.contact {
+	margin-left: 10px
+}
+
+#bgimage {
+	background-image: url("../src/images/nature-3294632_1280.jpg");
+	height: 500px;
+	  background-position: center;
+	  background-repeat: repeat;
+	  background-size: cover;
+}
+
+/* #image {
+	background-image: url("../src/images/nature-3294632_1280.jpg");
+	height: 500px;
+	  background-position: center;
+	  background-repeat: repeat;
+	  background-size: cover;
+} */
+
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}  
+
+
+.contact-form {
+    padding: 50px;
+    margin: 30px auto;
+}	
+.contact-form h1 {
+    font-size: 42px;
+    font-family: 'Pacifico', sans-serif;
+    margin: 0 0 50px;
+    text-align: center;
+}
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form .form-control, .contact-form .btn {
+    min-height: 40px;
+    border-radius: 2px;
+}
+.contact-form .form-control {
+    border-color: #2ab622;
+}
+.contact-form .form-control:focus {
+    border-color:  #2ab622;
+    box-shadow: 0 0 8px  #2ab622;
+}
+.contact-form .btn-primary, .contact-form .btn-primary:active {
+    min-width: 250px;
+    color: #c2c1c1;
+    background: rgba(45, 72, 58, 0.911) !important;
+    margin-top: 20px;
+    border: none;
+}
+.contact-form .btn-primary:hover {
+    color: #fff; 
+}
+.contact-form .btn-primary i {
+    margin-right: 5px;
+}
+.contact-form label {
+    opacity: 0.9;
+}
+.contact-form textarea {
+    resize: vertical;
+}
+.bs-example {
+    margin: 20px;
+}
